@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "webpack-dev-server --env.dev",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/NickyNest/ReactExpress/issues"
   },
-  "homepage": "https://github.com/NickyNest/ReactExpress#readme"
+  "homepage": "https://github.com/NickyNest/ReactExpress#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
 }
